@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/vnd.productplan.roadmap; type=collection
+Transfer-Encoding: chunked
+Status: 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=631138519
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: a440350f-5743-437c-87db-ac7c4b8ee313
+Link: </api/roadmaps?filters=name%3DProduct+Plan+Load+Test&pagination=by%3Did%2Cfrom%3D7302%2Citems%3D500>; rel="next", </api/roadmaps?filters=name%3DProduct+Plan+Load+Test&pagination=by%3Did%2Citems%3D500>; rel="first"
+X-Download-Options: noopen
+Etag: W/"304c43bf6fef5ef843482e51bea528b5"
+X-Runtime: 0.034862
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https: 'self'; child-src *.recurly.com share.intercom.io www.youtube.com player.vimeo.com fast.wistia.net; connect-src https: 'self' api.intercom.io api-iam.intercom.io api-ping.intercom.io nexus-websocket-a.intercom.io nexus-websocket-b.intercom.io nexus-long-poller-a.intercom.io nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io uploads.intercomcdn.com uploads.intercomusercontent.com sockjs.pusher.com wss://ws.pusherapp.com; font-src https: 'self' js.intercomcdn.com; frame-ancestors 'none'; img-src https: 'self' data: js.intercomcdn.com static.intercomassets.com uploads.intercomcdn.com uploads.intercomusercontent.com; media-src https: js.intercomcdn.com; script-src 'unsafe-inline' 'unsafe-eval' https: app.intercom.io widget.intercom.io js.intercomcdn.com; style-src 'unsafe-inline' https:
+Date: Thu, 05 Oct 2017 23:15:23 GMT
+X-Powered-By: Phusion Passenger 5.1.8
+Server: nginx + Phusion Passenger 5.1.8
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Api-Version, Authorization, Content-Type
+Access-Control-Max-Age: 3628800
+Via: 1.1 vegur
+
+[{"href": "/api/roadmaps/7302","id": 7302,"name": "Roadmap10","description": "Load testing plan","owner_email": "user@testmail.com","timestamps": {"created_at": "2017-10-03T12:58:07-07:00","updated_at": "2017-10-05T12:02:07-07:00"},"links": {"bars": {"href": "/api/roadmaps/7302/bars"},"ideas": {"href": "/api/roadmaps/7302/ideas"},"custom_fields": {"href": "/api/roadmaps/7302/custom_fields"}}},{"href": "/api/roadmaps/7302","id": 7302,"name": "Roadmap11","description": "Load testing plan","owner_email": "user@testmail.com","timestamps": {"created_at": "2017-10-03T12:58:07-07:00","updated_at": "2017-10-05T12:02:07-07:00"},"links": {"bars": {"href": "/api/roadmaps/7302/bars"},"ideas": {"href": "/api/roadmaps/7302/ideas"},"custom_fields": {"href": "/api/roadmaps/7302/custom_fields"}}}]

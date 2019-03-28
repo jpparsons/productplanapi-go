@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/vnd.productplan.roadmap; type=collection
+Transfer-Encoding: chunked
+Status: 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=631138519
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: d6e7860d-b06f-4d31-870b-bb2c41e76663
+Link: </api/roadmaps?filters=name%3DProductPlan+AssssPI+1&pagination=by%3Did%2Citems%3D500>; rel="first"
+X-Download-Options: noopen
+Etag: W/"18b50eaa01e860d2c78d96b8478bfd75"
+X-Runtime: 0.056886
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https: 'self'; child-src *.recurly.com share.intercom.io www.youtube.com player.vimeo.com fast.wistia.net; connect-src https: 'self' api.intercom.io api-iam.intercom.io api-ping.intercom.io nexus-websocket-a.intercom.io nexus-websocket-b.intercom.io nexus-long-poller-a.intercom.io nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io uploads.intercomcdn.com uploads.intercomusercontent.com sockjs.pusher.com wss://ws.pusherapp.com; font-src https: 'self' js.intercomcdn.com; frame-ancestors 'none'; img-src https: 'self' data: js.intercomcdn.com static.intercomassets.com uploads.intercomcdn.com uploads.intercomusercontent.com; media-src https: js.intercomcdn.com; script-src 'unsafe-inline' 'unsafe-eval' https: app.intercom.io widget.intercom.io js.intercomcdn.com; style-src 'unsafe-inline' https:
+Date: Fri, 22 Feb 2019 19:42:11 GMT
+X-Powered-By: Phusion Passenger 5.3.2
+Server: nginx + Phusion Passenger 5.3.2
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Api-Version, Authorization, Content-Type
+Access-Control-Max-Age: 3628800
+Via: 1.1 vegur
+
+[]

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/vnd.productplan.roadmap
+Transfer-Encoding: chunked
+Status: 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=631138519
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 895f62d8-df96-405c-8ab7-c982df1b0a75
+X-Runtime: 0.129599
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+< Content-Security-Policy: default-src https: 'self'; child-src *.recurly.com share.intercom.io www.youtube.com player.vimeo.com fast.wistia.net; connect-src https: 'self' api.intercom.io api-iam.intercom.io api-ping.intercom.io nexus-websocket-a.intercom.io nexus-websocket-b.intercom.io nexus-long-poller-a.intercom.io nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io uploads.intercomcdn.com uploads.intercomusercontent.com sockjs.pusher.com wss://ws.pusherapp.com; font-src https: 'self' js.intercomcdn.com; frame-ancestors 'none'; img-src https: 'self' data: js.intercomcdn.com static.intercomassets.com uploads.intercomcdn.com uploads.intercomusercontent.com; media-src https: js.intercomcdn.com; script-src 'unsafe-inline' 'unsafe-eval' https: app.intercom.io widget.intercom.io js.intercomcdn.com; style-src 'unsafe-inline' https:
+Date: Mon, 10 Sep 2018 17:48:29 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Api-Version, Authorization, Content-Type
+Access-Control-Max-Age: 3628800
+
+{"href":"/api/roadmaps/7302","id":7302,"name":"Roadmap10","description":"roadmap description","owner_email":"user@testmail.com","timestamps":{"created_at":"2017-06-01T12:03:53-07:00","updated_at":"2018-06-27T15:52:32-07:00"},"links":{"bars":{"href":"/api/roadmaps/7302/bars"},"ideas":{"href":"/api/roadmaps/7302/ideas"},"custom_fields":{"href":"/api/roadmaps/7302/custom_fields"}}}

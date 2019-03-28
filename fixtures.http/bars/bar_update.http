@@ -1,0 +1,22 @@
+HTTP/1.1 204 No Content
+Content-Length: 0
+Connection: keep-alive
+Status: 204 No Content
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=631138519
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 393baa60-3213-46fb-8949-81faf411429f
+X-Download-Options: noopen
+X-Runtime: 0.087123
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https: 'self'; child-src *.recurly.com share.intercom.io www.youtube.com player.vimeo.com fast.wistia.net; connect-src https: 'self' api.intercom.io api-iam.intercom.io api-ping.intercom.io nexus-websocket-a.intercom.io nexus-websocket-b.intercom.io nexus-long-poller-a.intercom.io nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io uploads.intercomcdn.com uploads.intercomusercontent.com sockjs.pusher.com wss://ws.pusherapp.com; font-src https: 'self' js.intercomcdn.com; frame-ancestors 'none'; img-src https: 'self' data: js.intercomcdn.com static.intercomassets.com uploads.intercomcdn.com uploads.intercomusercontent.com; media-src https: js.intercomcdn.com; script-src 'unsafe-inline' 'unsafe-eval' https: app.intercom.io widget.intercom.io js.intercomcdn.com; style-src 'unsafe-inline' https:
+X-Powered-By: Phusion Passenger 5.3.2
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Api-Version, Authorization, Content-Type
+Access-Control-Max-Age: 3628800
+
+
+{}

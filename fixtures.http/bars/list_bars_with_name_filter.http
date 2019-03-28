@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/vnd.productplan.bar; type=collection
+Transfer-Encoding: chunked
+Status: 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=631138519
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+X-Request-Id: 7ca3b88c-83c0-4657-b0a6-5ee1593b5510
+Link: </api/bars?filters=name%3DAPIBar1001&pagination=by%3Did%2Cfrom%3D205414%2Citems%3D500>; rel="next", </api/bars?filters=name%3DAPIBar1001&pagination=by%3Did%2Citems%3D500>; rel="first"
+X-Download-Options: noopen
+Etag: W/"b529d625aafeb9c0468af4d0c98ac681"
+X-Runtime: 0.143861
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https: 'self'; child-src *.recurly.com share.intercom.io www.youtube.com player.vimeo.com fast.wistia.net; connect-src https: 'self' api.intercom.io api-iam.intercom.io api-ping.intercom.io nexus-websocket-a.intercom.io nexus-websocket-b.intercom.io nexus-long-poller-a.intercom.io nexus-long-poller-b.intercom.io wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io uploads.intercomcdn.com uploads.intercomusercontent.com sockjs.pusher.com wss://ws.pusherapp.com; font-src https: 'self' js.intercomcdn.com; frame-ancestors 'none'; img-src https: 'self' data: js.intercomcdn.com static.intercomassets.com uploads.intercomcdn.com uploads.intercomusercontent.com; media-src https: js.intercomcdn.com; script-src 'unsafe-inline' 'unsafe-eval' https: app.intercom.io widget.intercom.io js.intercomcdn.com; style-src 'unsafe-inline' https:
+Date: Tue, 11 Sep 2018 18:52:03 GMT
+X-Powered-By: Phusion Passenger 5.3.2
+Server: nginx + Phusion Passenger 5.3.2
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-Api-Version, Authorization, Content-Type
+Access-Control-Max-Age: 3628800
+
+[{"href":"/api/bars/205414","id":205414,"name":"APIBar1001","start_date":"2017-01-21","end_date":"2017-04-19","description":"bar desc","strategic_value":"low","notes":"notes added","percent_done":0,"effort": 1,"tags":["tag1"],"fields":{"pp_lanes":"Lane 2","pp_legend":"Goal 4"},"timestamps":{"created_at":"2017-11-27T16:51:37-08:00","updated_at":"2018-07-11T07:51:05-07:00"},"links":{"roadmap":{"href":"/api/roadmaps/4946"},"child_bars":{"href":"/api/bars/205414/child_bars"},"external_links":{"href":"/api/bars/205414/external_links"}}}]
