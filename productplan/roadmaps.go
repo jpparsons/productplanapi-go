@@ -16,7 +16,7 @@ type RoadmapsResponse struct {
 }
 
 // ListRoadmaps get a list of roadmaps
-func (s *RoadmapsService) ListRoadmaps(options *ListOptions) (*[]RoadmapsResponse, error) {
+func (s *RoadmapsService) ListRoadmaps(options *RoadmapListOptions) (*[]RoadmapsResponse, error) {
 	path := "/api/roadmaps"
 	var roadmapsResponse *[]RoadmapsResponse
 

@@ -24,8 +24,7 @@ func TestRoadmapsService_ListRoadmaps_WithOptions(t *testing.T) {
 	})
 
 	roadmapName := "Roadmap10"
-
-	roadmapsResponse, err := client.Roadmaps.ListRoadmaps(&ListOptions{Filters: "name=" + roadmapName})
+	roadmapsResponse, err := client.Roadmaps.ListRoadmaps(&RoadmapListOptions{ListOptions: ListOptions{Filters: "name=" + roadmapName}})
 	if err != nil {
 		t.Fatalf("Roadmaps.ListRoadmaps() returned error: %v", err)
 	}
@@ -91,7 +90,7 @@ func TestRoadmapsService_ListRoadmaps_WithOptions_NotFound(t *testing.T) {
 
 	roadmapName := "NotFound"
 
-	roadmapsResponse, err := client.Roadmaps.ListRoadmaps(&ListOptions{Filters: "name=" + roadmapName})
+	roadmapsResponse, err := client.Roadmaps.ListRoadmaps(&RoadmapListOptions{ListOptions: ListOptions{Filters: "name=" + roadmapName}})
 	if err != nil {
 		t.Fatalf("Roadmaps.ListRoadmaps() returned error: %v", err)
 	}

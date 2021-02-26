@@ -51,3 +51,5 @@ func (s *IdeasService) Show(id string) (*IdeasResponse, error) {
 	ideasResponse.HTTPResponse = resp
 	return ideasResponse, nil
 }
+
+// TODO: index show all ideas paginated
